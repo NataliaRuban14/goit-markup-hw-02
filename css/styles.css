@@ -51,6 +51,7 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -96,6 +97,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    text-decoration: none;
 }
 
 .site-address .link:hover,
@@ -110,11 +112,16 @@
 
 /* Hero */
 
+.hero {
+    background-color: #2E2F42;
+}
+
 .hero-title {
     color: var(--primary-white-color);
     font-weight: 400;
     font-size: 56px;
     line-height: 1.07;
+    background-color: #2E2F42;
     text-align: center;
 }
 
@@ -156,9 +163,11 @@
 }
 
 /* Our Team */
+.team {
+    background-color: var(--primary-cloud-color);
+}
 
 .team-list .title {
-    background-color: var(--primary-cloud-color);
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -185,6 +194,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .button.primary {
@@ -197,7 +207,18 @@
     background-color: var(--primary-white-color);
 }
 
+.button.primary:hover,
+.button.primary:focus {
+    background: var(--accent-port-color);
+    color: var(--primary-white-color);
+}
+
+
 /* Footer */
+
+.footer-section {
+    background-color: #2E2F42;
+}
 
 .footer {
     color: var(--accent-color);
@@ -206,6 +227,7 @@
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -221,6 +243,7 @@
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -242,12 +265,15 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
-.button.portfolio.secondary {
+.button.portfolio:hover,
+.button.portfolio:focus {
     color: var(--accent-color);
     background-color: var(--primary-cloud-color);
 }
+
 
 /* Row */
 
