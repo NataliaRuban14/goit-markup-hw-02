@@ -258,8 +258,8 @@
 /* styles for portfolio */
 
 .button.portfolio {
-    color: var(--primary-white-color);
-    background-color: var(--accent-port-color);
+    color: var(--accent-color);
+    background-color: var(--primary-cloud-color);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -270,8 +270,8 @@
 
 .button.portfolio:hover,
 .button.portfolio:focus {
-    color: var(--accent-color);
-    background-color: var(--primary-cloud-color);
+    color: var(--primary-white-color);
+    background-color: var(--accent-port-color);
 }
 
 
